@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  margin: $header-height 0 0 0;
+  margin: $header-height 0 0 0; //navın positionu absolute verildiğinde yeni bir katmana çıkacak. Alttaki gelen tanımlama yukarı kayıp üstüste gelmesin diye yazdık.
   font-family: var(--body-font);
   background-color: $body-color;
   color: $first-color;
@@ -33,5 +33,5 @@ a {
 
 img {
   max-width: 100%;
-  height: auto;
+  height: auto; // görseller mobil boyuta geldiğinde otomatik olarak boyutlanır.
 }
